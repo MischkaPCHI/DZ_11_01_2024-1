@@ -10,9 +10,9 @@ public class Main {
         student.add(new Student("Jack",4,false));
         student.add(new Student("Nikolay",7,true));
         student.add(new Student("Ann",1,false));
-        student.add(new Student("Nicole",3,true));
-        student.add(new Student("Maria",3,false));
-        student.add(new Student("Raf",3,true));
+        student.add(new Student("Nicole",19,true));
+        student.add(new Student("Maria",11,false));
+        student.add(new Student("Raf",14,true));
 
         PrintSelection.print();
 

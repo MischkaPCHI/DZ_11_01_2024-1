@@ -13,7 +13,7 @@ public class Sorting implements Comparator<Student> {
             return 0;
         }
         if (yourChoice==2){
-            return o1.getMissedLessons()-o2.getMissedLessons();
+            return o2.getMissedLessons()-o1.getMissedLessons();
         }
         if (yourChoice==3){
             return o1.getName().length()-o2.getName().length();
